@@ -129,7 +129,7 @@ After following development steps above, and once development is satisfactory,
 ~/app $ npm run build
 ```
 
-This will create a 'build' folder in the directory. These are the build files that would be required for deployment (usually involves optimization and conversion to binary executables.)
+This will create a 'build' folder in the directory. These are the build files that would be required for deployment (usually involves optimization (cleaner and lighter) and conversion to binary executables.)
 
 If there are no errors, the build folder is ready to be deployed. And the output would look similar to the following:
 
