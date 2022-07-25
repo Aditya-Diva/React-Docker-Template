@@ -72,6 +72,7 @@ Best practice would be to mount the folder app with the /home/node/app folder in
 Now we'd like to set up an application, here since we're not going to rename the folder 'app', we can use the following command to setup the default react app template in the current folder and enter 'y' to confirm.
 
 ```sh
+~/app $ rm .gitkeep
 ~/app $ npx create-react-app .
 Need to install the following packages:
   create-react-app
