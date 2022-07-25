@@ -157,7 +157,7 @@ $ ./build.sh Dockerfile.dep
 Once image has been built successfully, launch the deployment by running, (under the assumption image name/tag was not changed for deployment and left as default.)
 
 ```sh
-docker run -d -p80:80 react-app-image-name:latest
+$ docker run -d -p80:80 react-app-image-name:latest
 ```
 
 Checkout the deployed site at [http://localhost:80](http://localhost:80) !
