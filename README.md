@@ -148,7 +148,7 @@ serve -s build
 Once we've confirmed the build can be done successfully,  
 We shall now create the deployment build through a multi-stage Dockerfile,
 After exiting the container,
-Run the command below. Please not this will overwrite our development image, unless the [config.sh](config.sh) values are renamed specifically for deployment.
+Run the command below. Please note this will overwrite our development image, unless the [config.sh](config.sh) values are renamed specifically for deployment.
 
 ```sh
 $ ./build.sh Dockerfile.dep
